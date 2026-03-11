@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home - Mohit Verma{% endblock title %}
+
+{% block content %}
+
+<main>
+
+<!-- HERO SECTION -->
+
+<section class="hero" style="background-image:url('{% static "images/herosectionimg.jpg" %}')">
+
+<div class="hero-overlay">
+
+<div class="hero-content">
+
+<h1>Luxury Interior <span>Design</span></h1>
+
+<p>
+Transforming homes into elegant and comfortable living spaces
+through creative interior design.
+</p>
+
+<div class="hero-buttons">
+
+<a href="{% url 'projects' %}" class="btn">View Projects</a>
+
+<a href="{% url 'contact' %}" class="btn-outline">Book Consultation</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT PREVIEW -->
+
+<section class="about-section">
+
+<div class="container about-grid">
+
+<div class="about-image">
+<img src="{% static 'images/mohit_img.jpeg' %}" alt="Designer">
+</div>
+
+<div class="about-text">
+
+<h2>About Me</h2>
+
+<p>
+I am an interior designer passionate about creating modern,
+comfortable and beautiful interiors.
+</p>
+
+<p>
+My design philosophy focuses on combining elegance,
+functionality and creativity to deliver stunning spaces.
+</p>
+
+<a href="/about/" class="btn">Learn More</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="services">
+
+<div class="container">
+
+<h2 class="section-title">Design Services</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<h3>Home Interior</h3>
+<p>Beautiful and functional residential interiors.</p>
+</div>
+
+<div class="service-card">
+<h3>Office Design</h3>
+<p>Modern workspaces for productivity and creativity.</p>
+</div>
+
+<div class="service-card">
+<h3>Space Planning</h3>
+<p>Efficient layouts for better space usage.</p>
+</div>
+
+<div class="service-card">
+<h3>Furniture Styling</h3>
+<p>Carefully selected furniture and decor.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECT GALLERY -->
+
+<section class="projects">
+
+<div class="container">
+
+<h2 class="section-title">Recent Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<img src="{% static 'images/img2.jpeg' %}" alt="Book Cafe">
+
+<h3>Book Cafe Academic Work</h3>
+
+</div>
+
+<div class="project-card">
+
+<img src="{% static 'images/img3.jpeg' %}" alt="Bedroom">
+
+<h3>Small Room Loft Bed</h3>
+
+</div>
+
+<div class="project-card">
+
+<img src="{% static 'images/img4.jpeg' %}" alt="Washroom">
+
+<h3>Washroom Academic Work</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CALL TO ACTION -->
+
+<section class="cta">
+
+<div class="container">
+
+<h2>Let's Design Your Dream Space</h2>
+
+<p>Contact me to transform your home or office.</p>
+
+<a href="/contact/" class="btn">Start Project</a>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+{% endblock content %}

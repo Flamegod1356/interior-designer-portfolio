@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}About - Mohit Verma{% endblock title %}
+
+{% block content %}
+
+<main>
+
+<!-- PAGE HERO -->
+
+<section class="page-hero">
+
+<h1>About Me</h1>
+
+<p>Designing elegant interiors with creativity and passion.</p>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<section class="about-section">
+
+<div class="container about-grid">
+
+<div class="about-image">
+
+<img src="{% static 'images/mohit_img.jpeg' %}" alt="Designer">
+
+</div>
+
+<div class="about-text">
+
+<h2>My Story</h2>
+
+<p>
+"Hello! I'm Mohit Verma, and I'm fresh graduated interior designer. 
+As an interior designer my aim to learn and grow with every project I take up and make strong connections with my futer clients in order to deliver best results."
+</p>
+
+<p>
+I'm passionate about the interior design and I have to strong desire to contribute to the Built environment. 
+From a young age, I've been captivated by the transformative power of spaces and the harmony between functionality and aesthetics.
+</p>
+
+<p>
+Through rigorous coursework in design principles and hands-on experience with software like AutoCad and Sketchup, 
+I've honed my ability to conceptualize and execute interior spaces that not only meet but exceed client expectations.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section class="services">
+
+<div class="container">
+
+<h2 class="section-title">My Expertise</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<h3>Residential Design</h3>
+<p>Modern home interiors designed for comfort.</p>
+</div>
+
+<div class="service-card">
+<h3>Commercial Spaces</h3>
+<p>Elegant and productive office environments.</p>
+</div>
+
+<div class="service-card">
+<h3>Space Planning</h3>
+<p>Optimizing layouts for functionality.</p>
+</div>
+
+<div class="service-card">
+<h3>Lighting Design</h3>
+<p>Creating atmosphere through lighting.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+
+<section class="projects">
+
+<div class="container">
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<h3>5+ Projects</h3>
+<p>Completed residential and commercial designs.</p>
+</div>
+
+<div class="project-card">
+<h3>2+ Years Experience</h3>
+<p>Professional interior design experience.</p>
+</div>
+
+<div class="project-card">
+<h3>Happy Clients</h3>
+<p>Client satisfaction and beautiful interiors.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CV -->
+
+<section class="services">
+
+<div class="cv-image">
+    <h2 class="section-title">My CV</h2>
+
+<img src="{% static "images/mohit_cv.jpeg" %}" alt="">
+
+</div>
+
+</section>
+
+</main>
+
+{% endblock content %}

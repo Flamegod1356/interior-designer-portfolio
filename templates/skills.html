@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Skills - Mohit Verma{% endblock title %}
+
+{% block content %}
+
+<main>
+
+<!-- PAGE HERO -->
+
+<section class="page-hero">
+
+<h1>My Skills</h1>
+
+<p>Interior design services, softwares and professional expertise.</p>
+
+</section>
+
+
+<!-- SERVICES WITH IMAGES -->
+
+<section class="services">
+
+<div class="container">
+
+<h2 class="section-title">Software Skills</h2>
+
+<div class="service-grid">
+
+<!-- Service 1 -->
+
+<div class="service-card">
+    
+<img src="{% static 'images/autocad.jpg' %}" alt="AutoCad">
+
+<h3>AutoCad</h3>
+
+</div>
+
+
+<!-- Service 2 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/photoshop.jpg' %}" alt="Photoshop">
+
+<h3>Photoshop</h3>
+
+
+</div>
+
+
+<!-- Service 3 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/3dmax.png' %}" alt="3D Max">
+
+<h3>3D Max</h3>
+
+
+</div>
+
+
+<!-- Service 4 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/vray.jpg' %}" alt="V-Ray">
+
+<h3>V-Ray</h3>
+
+
+</div>
+
+
+<!-- Service 5 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/sketchup.jpg' %}" alt="SketchUp">
+
+<h3>SketchUp</h3>
+
+
+</div>
+
+
+<!-- Service 6 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/msoffice.png' %}" alt="Microsoft Office">
+
+<h3>Microsoft Office</h3>
+
+</div>
+
+<!-- Service7 -->
+
+<div class="service-card">
+
+<img src="{% static 'images/enscape.png' %}" alt="Enscape">
+
+<h3>Enscape</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<h2>Ready to Transform Your Space?</h2>
+
+<p>Let's create a beautiful interior together.</p>
+
+<a href="/contact/" class="btn">Start a Project</a>
+
+</div>
+
+</section>
+
+</main>
+
+
+{% endblock content %}
