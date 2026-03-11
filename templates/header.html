@@ -1,18 +1,23 @@
-{% load static %}
 <header class="navbar">
-    <div class="container">
-        <div class="logo">
-            <h2><a href="{% url 'home' %}">Mohit Verma</a></h2>
-        </div>
 
-        <nav class="nav-links">
-            <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'about' %}">About</a></li>
-                <li><a href="{% url 'projects' %}">Projects</a></li>
-                <li><a href="{% url 'skills' %}">Skills</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+<div class="container">
+
+<h2 class="logo"><a href="{% url 'home' %}">Mohit Verma</a></h2>
+
+<button class="menu-toggle" id="menu-toggle">☰</button>
+
+<nav class="nav-links" id="nav-links">
+
+<ul>
+<li><a href="{% url 'home' %}">Home</a></li>
+<li><a href="{% url 'about' %}">About</a></li>
+<li><a href="{% url 'projects' %}">Projects</a></li>
+<li><a href="{% url 'skills' %}">Skills</a></li>
+<li><a href="{% url 'contact' %}">Contact</a></li>
+</ul>
+
+</nav>
+
+</div>
+
 </header>
